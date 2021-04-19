@@ -1,0 +1,50 @@
+
+.spacer      { flex:1; }
+.toolbar     { position:absolute;top:0;left:0;right:0;height:60px;display:flex;align-items:center;background-color:#1976d2;color:white;font-weight:600; }
+.toolbar img { margin:0 16px; }
+.mtop40      { margin-top:40px; }
+.mtop20      { margin-top:20px; }
+
+#linechart .axis        { font:10px sans-serif; }
+#linechart .axis path   { fill:none;stroke:#D4D8DA;stroke-width:2px;shape-rendering:crispEdges; }
+#linechart .axis line   { fill:none;stroke:#D4D8DA;stroke-width:2px;shape-rendering:crispEdges; }
+#linechart .line        { fill:none;stroke:#49bff2;stroke-width:4px; }
+#linechart .area        { fill:#83d0f2;opacity:0.3; }
+#linechart .dot         { fill:#ffffff;stroke:#1b96cc;stroke-width:2px; }
+
+
+
+
+.ticks {
+      font-size: 10px;
+    }
+
+    .track,
+    .track-inset,
+    .track-overlay {
+      stroke-linecap: round;
+    }
+
+    .track {
+      stroke: #dcdcdc;
+      stroke-width: 10px;
+    }
+
+    .track-inset {
+      stroke: #dcdcdc;
+      stroke-width: 8px;
+    }
+
+    .track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      stroke: transparent;
+      cursor: crosshair;
+    }
+
+    .handle {
+      fill: #fff;
+      stroke: #000;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+    }
